@@ -2,6 +2,5 @@
   "name": "cool-monorepo-label",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "gitHead": "94ec2e90136d3e28a9629d97b4fe920e5a7c921f"
+  "license": "MIT"
 }

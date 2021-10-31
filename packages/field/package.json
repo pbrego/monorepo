@@ -6,6 +6,5 @@
   "dependencies": {
     "cool-monorepo-inputbox": "^1.0.0",
     "cool-monorepo-label": "^1.0.0"
-  },
-  "gitHead": "94ec2e90136d3e28a9629d97b4fe920e5a7c921f"
+  }
 }
