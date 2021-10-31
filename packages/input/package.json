@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@cool-monorepo/button": "^1.1.2"
-  },
-  "gitHead": "b2f6c1b2035fd6c6695cc28371e332627129ca30"
+    "@cool-monorepo/button": "^1.0.0"
+  }
 }

@@ -2,6 +2,5 @@
   "name": "@cool-monorepo/button",
   "version": "1.1.2",
   "main": "index.js",
-  "license": "MIT",
-  "gitHead": "b2f6c1b2035fd6c6695cc28371e332627129ca30"
+  "license": "MIT"
 }

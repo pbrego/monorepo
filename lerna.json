@@ -5,14 +5,12 @@
     },
     "publish": {
       "conventionalCommits": true,
-      "message": "chore(release): publish",
-      "publishConfig": {
-        "access": "public"
-      }
+      "message": "chore(release): publish"
     }
   },
   "version": "independent",
   "packages": ["packages/*"],
   "npmClient": "yarn",
+  "registry": "https://registry.npmjs.org/",
   "useWorkspaces": true
 }
