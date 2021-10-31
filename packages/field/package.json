@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cool-monorepo-input": "^1.0.0",
+    "cool-monorepo-inputbox": "^1.0.0",
     "cool-monorepo-label": "^1.0.0"
-  }
+  },
+  "gitHead": "06eb5bf5debf8bf2c97b01242ae00dd90b98eb27"
 }
