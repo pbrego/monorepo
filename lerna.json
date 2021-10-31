@@ -1,4 +1,13 @@
 {
+  "command": {
+    "create": {
+      "license": "MIT"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  },
   "version": "independent",
   "packages": ["packages/*"],
   "npmClient": "yarn",
