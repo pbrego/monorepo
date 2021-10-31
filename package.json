@@ -11,9 +11,13 @@
   "scripts": {
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "postinstall": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0"
   }
 }
