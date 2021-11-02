@@ -1,10 +1,23 @@
 {
   "name": "cool-monorepo-field",
   "version": "2.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "src/index.tsx",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {
     "cool-monorepo-inputbox": "^1.1.0",
     "cool-monorepo-label": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.36.1",
+    "rollup-plugin-typescript2": "^0.29.0"
   }
 }

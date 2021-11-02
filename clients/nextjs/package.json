@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "cool-monorepo-nextjs-client",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "12.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "cool-monorepo-field": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "16.11.6",
