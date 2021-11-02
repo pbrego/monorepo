@@ -5,16 +5,17 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "clients/*"
   ],
   "scripts": {
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish",
     "postinstall": "husky install",
-    "clean": "yarn rimraf ./**/node_modules",
     "lint": "eslint ./packages ",
     "type-check": "tsc",
+    "clean": "yarn rimraf ./**/node_modules",
     "preclean": "yarn add -D rimraf"
   },
   "devDependencies": {

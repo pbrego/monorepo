@@ -1,16 +1,16 @@
 {
-  "command": {
-    "create": {
-      "license": "MIT"
+    "command": {
+        "create": {
+            "license": "MIT"
+        },
+        "publish": {
+            "conventionalCommits": true,
+            "message": "chore(release): publish"
+        }
     },
-    "publish": {
-      "conventionalCommits": true,
-      "message": "chore(release): publish"
-    }
-  },
-  "version": "independent",
-  "packages": ["packages/*"],
-  "npmClient": "yarn",
-  "registry": "https://registry.npmjs.org/",
-  "useWorkspaces": true
+    "version": "independent",
+    "packages": ["packages/*", "clients/*"],
+    "npmClient": "yarn",
+    "registry": "https://registry.npmjs.org/",
+    "useWorkspaces": true
 }
