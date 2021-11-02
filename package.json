@@ -10,7 +10,6 @@
   ],
   "scripts": {
     "lerna": "lerna",
-    "next": "lerna run dev --stream --scope cool-monorepo-nextjs-client",
     "cra": "lerna run start --stream --scope cool-monorepo-cra-client",
     "build": "lerna run build --stream --scope cool-monorepo-field",
     "bootstrap": "lerna bootstrap",
