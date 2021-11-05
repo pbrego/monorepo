@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
-        "baseUrl": ".",
+        "baseUrl": "src",
         "declaration": true,
         "declarationDir": "dist",
         "esModuleInterop": true,
@@ -10,10 +10,10 @@
         "module": "esnext",
         "moduleResolution": "node",
         "resolveJsonModule": true,
-        "rootDir": ".",
+        "rootDir": "src",
         "skipLibCheck": true,
         "sourceMap": true,
-        "target": "es5",
+        "target": "esnext",
         "allowJs": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,

@@ -1,5 +1,5 @@
 {
-  "name": "cool-monorepo-root",
+  "name": "@cool-monorepo/root",
   "version": "1.0.0",
   "author": "Pablo <pbregonzio@technisys.com>",
   "license": "MIT",
@@ -10,12 +10,11 @@
   ],
   "scripts": {
     "lerna": "lerna",
-    "next": "lerna run dev --stream --scope cool-monorepo-nextjs-client",
-    "cra": "lerna run start --stream --scope cool-monorepo-cra-client",
-    "build": "lerna run build --stream --scope cool-monorepo-field",
+    "start": "yarn workspace @cool-monorepo/vite start",
+    "build": "yarn workspace @cool-monorepo/lib build",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish",
-    "lint": "eslint ./packages ",
+    "lint": "eslint . ",
     "type-check": "tsc",
     "clean": "yarn rimraf ./**/node_modules",
     "postinstall": "husky install",
