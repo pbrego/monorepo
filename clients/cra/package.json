@@ -17,9 +17,13 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
     "@craco/craco": "^6.4.0",
+    "@dvhb/craco-extend-scope": "^1.0.1",
     "@types/react": "^17.0.33",
     "babel-loader": "^8.2.2",
+    "craco-alias": "^3.0.1",
     "craco-less": "^1.17.1",
     "craco-plugin-react-hot-reload": "^0.1.0",
     "less": "^4.1.1",

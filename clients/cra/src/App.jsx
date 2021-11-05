@@ -1,6 +1,8 @@
 import React from "react";
-import { logging, Component } from "cool-monorepo-field";
-import { hot } from "react-hot-loader";
+// import { logging, Component } from "cool-monorepo-field";
+// import { logging, Component } from "@field";
+// import { logging, Component } from "field";
+import { logging, Component } from "../../packages/field";
 
 const App = () => {
     logging();
@@ -11,6 +13,8 @@ const App = () => {
 
             <h2>TODO</h2>
             <ul>
+                <li>TS en la aplicacion</li>
+                <li>TS desde el modulo</li>
                 <li>JSX desde el modulo</li>
                 <li>Hot reload desde el modulo</li>
             </ul>
@@ -18,4 +22,4 @@ const App = () => {
     );
 };
 
-export default hot(App);
+export default App;
