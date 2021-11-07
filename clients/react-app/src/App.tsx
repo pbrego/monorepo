@@ -1,12 +1,16 @@
-import "./App.less";
-import { Component } from "@cool-monorepo/lib";
+// import "./App.less";
 import { Button } from "@cool-monorepo/antd-ui";
+import "antd/dist/antd.less";
 
 const Application = (): JSX.Element => (
-    <div>
-        <Component />
+    <>
+        <Button type="dashed">Hola gdfd boton</Button>
+        <Button.Group>
+            <Button href="/lala">Hola gdfd boton</Button>
+            <Button>Hola gdfd boton</Button>
+        </Button.Group>
         <Button>Hola gdfd boton</Button>
-    </div>
+    </>
 );
 
 export default Application;
